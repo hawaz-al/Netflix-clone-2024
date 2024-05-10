@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+import Banner from "../../components/Banner/Banner";
+// import RowList from '../../components/Rows/RowList/RowList'
 
-const home = () => {
+const Home = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <Header />
+      <Banner />
+      {/* <RowList /> */}
+      <Footer />
+    </>
+  );
+};
 
-export default home
+export default Home;
